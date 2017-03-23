@@ -15,10 +15,11 @@ begin
     for (i = 0; i < 16; i = i + 1)
     begin
         dane = $fgetc(file);
+        #2;
         send_flag = 1'b1;
         #2;
         send_flag = 1'b0;
-        #22;
+        #20;
     end
     $fclose(file);
 end

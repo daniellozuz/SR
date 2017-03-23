@@ -10,7 +10,7 @@ wire data = c;
 
 initial
 begin
-    file = $fopen("./Plik_wyjúciowy.txt", "wb");
+    file = $fopen("./Plik_wyj≈õciowy.txt", "wb");
     for (i = 0; i < 16*12; i = i + 1)
     begin
         #2;

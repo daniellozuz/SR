@@ -12,11 +12,11 @@ localparam STATE2 = 2'b01;
 localparam STATE3 = 2'b10;
 localparam STATE4 = 2'b11;
 
-reg state = STATE1;
+reg [1:0] state = STATE1;
 reg prev_send = 1'b0;
 reg [7:0] dane = 8'b0;
 reg wyslij = 1'b0;
-reg cnt = 3'd0;
+reg [2:0] cnt = 3'd0;
 
 always @ (posedge clk)
 begin
@@ -31,7 +31,7 @@ begin
                 if (send == 1 & prev_send == 0)
                 begin
                     state <= STATE2;
-                    $display("Przejœcie do stanu 2");
+                    $display("PrzejÅ›cie do stanu 2");
                     dane <= data;
                 end
             end
@@ -40,7 +40,7 @@ begin
                 $display("Stan2");
                 wyslij <= 1'b1;
                 state <= STATE3;
-                $display("Przejœcie do stanu 3");
+                $display("PrzejÅ›cie do stanu 3");
             end
             STATE3:
             begin
@@ -55,7 +55,7 @@ begin
                     wyslij <= dane[cnt];
                     cnt <= 3'd0;
                     state <= STATE4;
-                    $display("Przejœcie do stanu 4");
+                    $display("PrzejÅ›cie do stanu 4");
                 end
             end
             STATE4:
@@ -63,7 +63,7 @@ begin
                 $display("Stan4");
                 wyslij <= 1'b0;
                 state <= STATE1;
-                $display("Przejœcie do stanu 1");
+                $display("PrzejÅ›cie do stanu 1");
             end
         endcase
         prev_send <= send;
