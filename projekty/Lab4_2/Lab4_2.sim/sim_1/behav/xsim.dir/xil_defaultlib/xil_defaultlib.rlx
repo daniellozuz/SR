@@ -1,0 +1,15 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/Daniel/Lab4_2/Lab4_2.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sim_1/new/tb_complex_arithmetic_module.v,1490462357,verilog,,,,tb_complex_arithmetic_module,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/ip/c_addsub_1/sim/c_addsub_1.vhd,1490455158,vhdl,,,,c_addsub_1,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/ip/c_addsub_2/sim/c_addsub_2.vhd,1490456973,vhdl,,,,c_addsub_2,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/ip/c_addsub_3/sim/c_addsub_3.vhd,1490457156,vhdl,,,,c_addsub_3,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/ip/c_addsub_4/sim/c_addsub_4.vhd,1490458126,vhdl,,,,c_addsub_4,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/ip/mult_gen_1/sim/mult_gen_1.vhd,1490457780,vhdl,,,,mult_gen_1,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/ip/mult_gen_2/sim/mult_gen_2.vhd,1490457908,vhdl,,,,mult_gen_2,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/new/complex_arithmetic_module.v,1490462682,verilog,,,,complex_arithmetic_module,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/new/delay_line.v,1490457306,verilog,,,,delay_line,,,,,,,,
+C:/Users/Daniel/Lab4_2/Lab4_2.srcs/sources_1/new/register.v,1490457484,verilog,,,,register,,,,,,,,
