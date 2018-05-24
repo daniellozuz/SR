@@ -1,2 +1,2 @@
-# This repo contains VHDL introductory exercises. Nothing fancy, but worth keeping.
+# This repo contains Verilog introductory exercises. Nothing fancy, but worth keeping.
 
